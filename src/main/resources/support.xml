@@ -1,0 +1,18 @@
+# OracleDB connection settings
+spring.datasource.url=jdbc:oracle:thin:@xdrp02vm02:1582:T1CORE
+spring.datasource.username=apphub
+spring.datasource.password=APPhub01#
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+
+
+# JPA settings
+spring.jpa.database-platform=org.hibernate.dialect.Oracle12cDialect
+
+spring.datasource.hikari.connection-timeout=60000
+spring.datasource.hikari.maximum-pool-size=5
+
+# logging
+logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n
+logging.level.org.hibernate.SQL=debug
+#logging.level.org.hibernate.type.descriptor.sql=trace
+logging.level.=error
