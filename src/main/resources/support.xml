@@ -1,7 +1,7 @@
 # OracleDB connection settings
-spring.datasource.url=jdbc:oracle:thin:@xdrp02vm02:1582:T1CORE
-spring.datasource.username=apphub
-spring.datasource.password=APPhub01#
+spring.datasource.url=jdbc:oracle:thin:@host:port:db
+spring.datasource.username=user
+spring.datasource.password=pass
 spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
 
 
